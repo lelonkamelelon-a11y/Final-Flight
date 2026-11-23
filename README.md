@@ -6,7 +6,7 @@
 
 **EasyEDA project:** [Final Flight_copy.eprj2](https://github.com/lelonkamelelon-a11y/StickOfPower/blob/main/Final%20Flight_copy.eprj2)
 
-**Forum post:** https://forum.arduino.cc/t/review-request-final-flight-esp32-s3-flight-computer-with-gps-imu-high-g-accel-barometer-and-isolated-12-v-output/1468733
+**Forum post:** https://forum.arduino.cc/t/review-request-stick-of-power-esp32-s3-flight-computer-with-gps-imu-high-g-accel-barometer-lora-and-isolated-12-v-output/1468733
 
 **Board:** 4-layer EasyEDA Pro PCB · roughly circular ("circual-ish") outline · four PTR mounting holes · outward-facing connectors. The outline was extended twice (20 mm total) to make room for the RF and interface sections.
 
@@ -97,8 +97,8 @@ The 12 V nets (`12V+`, `12V-`, `12V+OUT`, `12V-OUT`) were made much beefier afte
 
 ### 6. Current status
 
-- **Schematic ERC:** 0 errors / 5 warnings — passed.
-- **PCB DRC:** 10 pre-existing board-outline-to-antenna-pad clearance errors (0.262 mm vs the 0.3 mm rule). The 12 V widening and the board extension added no new violations.
+- **Schematic ERC:** 0 errors / 4 warnings — passed.
+- **PCB DRC:** 0 errors.
 - All routing was done by hand; no autorouter was used. Small nudges of neighbouring tracks were only used where needed.
 - Current project: [Final Flight_copy.eprj2](https://github.com/lelonkamelelon-a11y/StickOfPower/blob/main/Final%20Flight_copy.eprj2)
 
